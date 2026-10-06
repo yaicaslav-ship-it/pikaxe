@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pickthrough",
+  "version": "${version}",
+  "name": "Pickaxe Through Players",
+  "description": "Позволяет ломать блоки сквозь хитбокс игрока, если в руке кирка.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["pickthrough.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
